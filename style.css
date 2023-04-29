@@ -1,0 +1,67 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-flow: col wrap;
+    justify-content: space-between;
+    margin-top: 25px;
+    overflow: hidden;
+    gap: 5px;
+}
+
+.container .item{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+    margin: 2px;
+}
+
+.carousel-item img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.container-grid{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+    gap : 5px 5px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.container-grid .item-grid{
+    margin: 5px;
+}
+
+.container-grid .nested-items{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.container-grid img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.container-card{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-footer .row{
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    margin-top: 25px;
+    overflow: hidden;
+    gap: 5px;
+}
